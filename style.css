@@ -1,0 +1,66 @@
+body {
+    font-family: Arial;
+}
+
+header {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.right {
+    float: right;
+    margin: 0px 10px;
+}
+
+.page-title {
+    float: left;
+}
+
+.hero {
+    background-color: blue;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero1 {
+    flex: 0 1 auto;
+    width: 250px;
+}
+
+.hero2 {
+    flex: 0 1 auto;
+    width: 250px;
+    background-image: url('https://i.imgur.com/QxDGBM0l.jpg');
+    background-size: cover;
+    height: 250px;
+}
+
+.hero-button {
+    background-color: white;
+    color: blue;
+    padding: 10px 15px;
+    border-radius: 5px;;
+}
+
+h1 {
+    font-family: "Times New Roman";
+}
+
+.card-container {
+    display: flex;
+    width: 100%;
+}
+
+.card {
+    width: 30%;
+}
